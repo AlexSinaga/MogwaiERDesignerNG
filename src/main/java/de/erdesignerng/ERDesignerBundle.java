@@ -99,6 +99,9 @@ public interface ERDesignerBundle {
 	/** \u005a\u006f\u006f\u006d\u0020\u0069\u006e. */
 	String ZOOMIN = "ZOOMIN";
 
+	/** \u0044\u006f\u0063\u0073. */
+	String DOCS = "DOCS";
+
 	/** \u005a\u006f\u006f\u006d\u0020\u006f\u0075\u0074. */
 	String ZOOMOUT = "ZOOMOUT";
 

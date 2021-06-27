@@ -111,6 +111,11 @@
             <Text lang="en">Zoom in</Text>
             <Icon>/de/erdesignerng/icons/magnifier_zoom_in.png</Icon>
         </Entry>
+        <Entry id="DOCS">
+            <Text lang="de">Docs</Text>
+            <Text lang="en">Docs</Text>
+            <Icon>/de/erdesignerng/icons/user_manual.png</Icon>
+        </Entry>
         <Entry id="ZOOMOUT">
             <Text lang="de">Verkleinern</Text>
             <Text lang="en">Zoom out</Text>

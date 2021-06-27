@@ -107,6 +107,8 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
 
     private DefaultAction zoomOutAction;
 
+    private DefaultAction docsAction;
+
     private static final ZoomInfo ZOOMSCALE_HUNDREDPERCENT = new ZoomInfo(
             "100%", 1);
 
@@ -442,6 +444,9 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         zoomOutAction = new DefaultAction(
                 e -> zoomOut(), this, ERDesignerBundle.ZOOMOUT);
 
+        docsAction = new DefaultAction(
+                e -> zoomOut(), this, ERDesignerBundle.DOCS);
+
         DefaultAction theGenerateSQL = new DefaultAction(
                 new GenerateSQLCommand(), this,
                 ERDesignerBundle.GENERATECREATEDBDDL);
@@ -750,6 +755,7 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         theToolBar.addSeparator();
         theToolBar.add(zoomInAction);
         theToolBar.add(zoomOutAction);
+        theToolBar.add(docsAction);
         theToolBar.addSeparator();
 
         handButton = new DefaultToggleButton(handAction);
