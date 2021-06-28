@@ -776,7 +776,24 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         theToolBar.add(relationButton);
         theToolBar.add(commentButton);
         theToolBar.add(viewButton);
-
+/**********************************************************/
+        /* theToolbar1 */
+        handButton.setToolTipText("Selection");
+        relationButton.setToolTipText("Relation Edit");
+        entityButton.setToolTipText("Entity Table Edit");
+        commentButton.setToolTipText("Comment");
+        viewButton.setToolTipText("View Edit");
+        /* theToolbar2 */
+        theNewAction.setText("New");
+        theLoadAction.setText("Open");
+        theSaveAsAction.setText("Save Model As");
+        zoomInAction.setText("Zoom In");
+        zoomOutAction.setText("Zoom Out");
+        /* theToolbar2 */
+        theFileMenu.setToolTipText("File Menu");
+        theDBMenu.setToolTipText("Database Menu");
+        theViewMenu.setToolTipText("View Menu");
+/************************************************************/
         intelligentLayoutCheckbox = new DefaultCheckBox(
                 ERDesignerBundle.INTELLIGENTLAYOUT);
         intelligentLayoutCheckbox.setSelected(ApplicationPreferences.getInstance()
